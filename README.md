@@ -1,7 +1,7 @@
 Our project is composed of 4 main parts:
 * Data Preparation for the ML Model: which is also composed of 2 parts:
   * Data preparation of the encoding, which contains the cleaning, generalizaton and mapping of the data on a constant format. We did this by following those steps:
-                            - if any row didn't have any relevant information, we excluded it;
+    * if any row didn't have any relevant information, we excluded it;
                             - if age was missing, we took the average age: 45 years;
                             - if sex was missing, if age < 55, masculine, if age > 55, feminine( as it is the average per every age interval);
                             - if any date was missing, we put a date from the others that were available( if no date was filed out, we chose a date random from the 3 months
