@@ -18,10 +18,10 @@ Our project is composed of 4 main parts:
          * 'rezultat' by either being possitive/negative;
        * one hot encoding:for simptomes, because multiple simptomes for a single individuals, we chose one hot encoding here
     * ML Model:
-     * we used a logistic regression for this as it is better in the cases of deciding of a pass/fail situation ( in our case, positive/negative)
-     * we used our Datapreparation and also our PerformanceMetrics functions
+       * we used a logistic regression for this as it is better in the cases of deciding of a pass/fail situation ( in our case, positive/negative)
+       * we used our Datapreparation and also our PerformanceMetrics functions
     * PerformanceMetrics:
-     * we used the sklearn.metrics to get our wanted metrics, to measure the performance of our model predictions
+       * we used the sklearn.metrics to get our wanted metrics, to measure the performance of our model predictions
   
   
  Also, seperated from our project code flow is :
