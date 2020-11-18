@@ -1,4 +1,4 @@
-Our project is composed of 4 main parts:
+# Our project is composed of 4 main parts:
 * Data Preparation for the ML Model: which is also composed of 2 parts:
   * Data preparation of the encoding, which contains the cleaning, generalizaton and mapping of the data on a constant format. We did this by following those steps:
     * if any row didn't have any relevant information, we excluded it;
@@ -24,5 +24,5 @@ Our project is composed of 4 main parts:
        * we used the sklearn.metrics to get our wanted metrics, to measure the performance of our model predictions
   
   
- Also, seperated from our project code flow is :
+ # Also, separated from our project code flow is :
  * viz flow, which helps us to vizualize the influence our data might have on our model and how much it can influence it.
