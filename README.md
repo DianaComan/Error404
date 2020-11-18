@@ -15,8 +15,8 @@ Our project is composed of 4 main parts:
          * dates by the weeks using encodingTime;
          * 'confirmare contact cu o persoană infectată', 'mijloace de transport folosite', 'istoric de călătorie' by label encoding with Da/NU label;
          * 'diagnostic' by the possibily of being suspected of covid or not
-         * 'rezultat' by either being possitive/negative
-      * one hot encoding:for simptomes, because multiple simptomes for a single individuals, we chose one hot encoding here
+         * 'rezultat' by either being possitive/negative;
+       * one hot encoding:for simptomes, because multiple simptomes for a single individuals, we chose one hot encoding here
          - ML Model:
                      - we used a logistic regression for this as it is better in the cases of deciding of a pass/fail situation ( in our case, positive/negative)
                      - we used our Datapreparation and also our PerformanceMetrics functions
